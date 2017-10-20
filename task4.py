@@ -18,3 +18,4 @@ print ("Hosts = ")
 print (json.dumps(response.json(), indent=4, separators=(',', ': ')))
 r_resp=response.json()
 print(r_resp["response"][0]["hostIp"])
+
